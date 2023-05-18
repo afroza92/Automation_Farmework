@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-15T00:39:07.596Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5608472100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "luma_usa_Hooks.My_Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "user able to select the product, add to cart, add shipping information, place order, \u0026 verify the order confirmation number",
+        "description": "",
+        "id": "user-able-to-purchase-the-product-and-verify-the-order-confirmation;user-able-to-select-the-product--add-to-cart--add-shipping-information--place-order--\u0026-verify-the-order-confirmation-number",
+        "after": [
+          {
+            "result": {
+              "duration": 431579200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "luma_usa_Hooks.My_Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3013567800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user able to login the application",
+            "match": {
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_login_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1352060800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user able to select Jackets from Men module",
+            "match": {
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_select_jackets_from_men_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2355890600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user able to select a Jacket product\u0027s size, color, quantity",
+            "match": {
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_select_a_jacket_product_s_size_color_quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201112000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user able to click add to cart button",
+            "match": {
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_click_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4646962700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user able to click on the shopping cart pop-up",
+            "match": {
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_click_on_the_shopping_cart_pop_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1382995500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user able to click on the proceed to checkout",
+            "match": {
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_click_on_the_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4055806800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user able to add shipping information",
+            "match": {
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_add_shipping_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2675204600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user able to select shipping method radial button and click on next button",
+            "match": {
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_select_shipping_method_radial_button_and_click_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3848230500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user able to click on the place order button",
+            "match": {
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_click_on_the_place_order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()\u003d\u0027Thank you for your purchase!\u0027]\"}\n  (Session info: chrome\u003d113.0.5672.93)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027OVI\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\afroz\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 11a08cc635a9d646df1ab929070d0b57\n*** Element info: {Using\u003dxpath, value\u003d//*[text()\u003d\u0027Thank you for your purchase!\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy25.getText(Unknown Source)\r\n\tat luma_Stepdefination.Functional_step_Def.user_able_to_verify_the_confirmation_message(Functional_step_Def.java:126)\r\n\tat ✽.user able to verify the confirmation message \"Thank you for your purchase!\"(file:///C:/Users/afroz/eclipse-workspace/Automation_Farmework(AFROZA)/./Feature/Functional_Test.feature:14)\r\n",
+              "duration": 10073941800,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user able to verify the confirmation message \"Thank you for your purchase!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your purchase!\"",
+                  "offset": 45
+                }
+              ],
+              "location": "luma_Stepdefination.Functional_step_Def.user_able_to_verify_the_confirmation_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user able to purchase the product and verify the order confirmation",
+    "description": "Description \"optional\"",
+    "id": "user-able-to-purchase-the-product-and-verify-the-order-confirmation",
+    "keyword": "Feature",
+    "uri": "file:Feature/Functional_Test.feature",
+    "tags": []
+  }
+]

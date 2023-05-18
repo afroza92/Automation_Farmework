@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FireFoxBrowser(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="com.testNGAnnotation.CrossBrowserTesting">
+        <methods>
+          <include name="TearDown"/>
+          <include name="getTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testNGAnnotation.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- FireFoxBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
